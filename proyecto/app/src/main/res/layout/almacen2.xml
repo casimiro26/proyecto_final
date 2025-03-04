@@ -6,6 +6,15 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="1700dp"
+        android:layout_height="1000dp"
+        app:srcCompat="@drawable/azul"
+        tools:layout_editor_absoluteX="-850dp"
+        tools:layout_editor_absoluteY="-41dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
         android:id="@+id/imageView3"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -274,4 +283,6 @@
         tools:layout_editor_absoluteX="24dp"
         tools:layout_editor_absoluteY="642dp"
         tools:ignore="MissingConstraints" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

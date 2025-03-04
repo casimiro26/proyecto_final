@@ -30,6 +30,10 @@ fun AppNavigation() {
     }
 }
 
+fun NavHost(navController: Any, startDestination: String, function: () -> Unit) {
+
+}
+
 @Composable
 fun InicioScreen(navController: NavController) {
     Scaffold(
